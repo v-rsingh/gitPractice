@@ -118,6 +118,11 @@ $ git commit -m "Initial Commit with Apex Classes"
 # Push the changes
 $git push
 
+# To push the current branch and set the remote as upstream, use
+  Here logicForUserInfo is new local branch
+  
+   $ git push --set-upstream origin logicForUserInfo
+
 # Clear Git Bash Screen
 $ Clear
 # ********************************************************************

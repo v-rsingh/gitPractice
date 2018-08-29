@@ -1,3 +1,6 @@
+# Git Document
+https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
 # gitPractice
 This repository is used for GitHub practice and learn how to use GIT
 

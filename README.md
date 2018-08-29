@@ -55,7 +55,7 @@ using HTTP URL:
 $ git clone https://github.com/salesforcemph/gitPractice.git
          OR
 SSH:
-$ git clone git://git.kernel.org/pub/scm/git/git.git
+$ git clone git@github.com:salesforcemph/gitPractice.git
 
 # Checking the Status of Your Files
 $ git status

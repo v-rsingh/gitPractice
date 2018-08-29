@@ -2,6 +2,8 @@
 This repository is used for GitHub practice and learn how to use GIT
 
 https://github.com/forcedotcom/sfdx-simple
+#Git Version
+$ git --version
 
 # Setting your Git username for every repository on your computer
 1. Open Git Bash
@@ -39,9 +41,44 @@ Note: You will see user name
   $ls -al ~/.ssh
 # Lists the files in your .ssh directory, if they exist
 
+#Checking Your Settings
+If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
+$ git config --list
 
-# ****************************Git Command**********************************************************
-# Clone Repository using HTTP URL:
-$git clone https://github.com/salesforcemph/gitPractice.git
-# **************************************************************************************
+#$ Git help
+$ git help <verb>
+
+
+# Git Command**********************************************************
+# Cloning an Existing Repository
+using HTTP URL:
+$ git clone https://github.com/salesforcemph/gitPractice.git
+         OR
+SSH:
+$ git clone git://git.kernel.org/pub/scm/git/git.git
+
+# Checking the Status of Your Files
+$ git status
+
+# Staging single Modified Files/ Add single Modified file to staging
+$ git add <File_Name>
+
+Example:
+File added or Modified : CONTRIBUTING.md
+$ git add CONTRIBUTING.md
+
+#  -A, --all add changes from all tracked and untracked files
+$ git add -A
+
+# Commiting your changes 
+$ git commit -m "User_StoryName OR Comment"
+          OR
+$ git commit -m "Initial Commit with Apex Classes"
+
+
+# Push the changes
+
+# Clear Git Bash Screen
+$ Clear
+# ********************************************************************
 

@@ -85,7 +85,11 @@ $ git status
 1. To checkout 
 
    $ git checkout
+  
+  2. Pull Latest Changes
    
+   $ git pull
+    
 2. If you want to create a new branch to retain commits you create
 
    $ git checkout -b new-branch-Name

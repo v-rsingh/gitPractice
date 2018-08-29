@@ -77,6 +77,7 @@ $ git commit -m "Initial Commit with Apex Classes"
 
 
 # Push the changes
+$git push
 
 # Clear Git Bash Screen
 $ Clear

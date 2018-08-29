@@ -60,6 +60,14 @@ $ git clone git://git.kernel.org/pub/scm/git/git.git
 # Checking the Status of Your Files
 $ git status
 
+# Checking out Tags
+1. To checkout 
+   $ git checkout
+2. If you want to create a new branch to retain commits you create
+   $ git checkout -b <new-branch>
+3. To switch between branch
+  $ git checkout <BranchName OR Master>
+  
 # Staging single Modified Files/ Add single Modified file to staging
 $ git add <File_Name>
 

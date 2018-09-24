@@ -97,6 +97,11 @@ $ git status
 
    $ git checkout -b new-branch-Name
    
+   # To Create new branch:
+     $git branch BRANCH_NAME
+
+  # To switch between branch:
+    $git checkout BRANCH_NAME
 3. To switch between branch
   $ git checkout BranchNameORMaster
   

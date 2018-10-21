@@ -7,4 +7,9 @@ public class MyFirstClass{
    public static Integer addNum(Integer i, Integer j){
       return i+j;
    }
+   
+   //To Mul new Method
+   public static Integer addNum(Integer i, Integer j){
+      return i*j;
+   }
 }

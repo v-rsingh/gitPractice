@@ -1,3 +1,6 @@
+# Generate SSH Key
+ssh-keygen -t rsa -C "Email address/ User Name"
+
 # Git Document
 https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
